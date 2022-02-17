@@ -16,9 +16,6 @@ const MessageContainer = () => {
 
         // Ajout du message en 1er element
         setMessages(messages => [newMsg, ...messages]);
-        
-        // ↓ Alternative : Même chose avec la methode "concat"
-        //setMessages(messages => [].concat(newMsg).concat(messages));
     }
 
     return (
